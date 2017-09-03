@@ -38,7 +38,7 @@ Please see how this file looks like in the repository.
 }
  ```
 
-That tells yarn or npm to run the Webpack in watch mode and show progress percentage during building of project.
+That tells yarn or npm to run the Webpack in watch mode and show percent progress during building of project.
 
 ### 8. Write in the Terminal 
 
