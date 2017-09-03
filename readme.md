@@ -30,7 +30,7 @@ Please see how this file looks like in the repository.
 
 Please see how this file looks like in the repository.
 
-### 7. Add to "package.json" _script_ key
+### 7. Add to "package.json" _scripts_ key
 
 ```
 "scripts": {
