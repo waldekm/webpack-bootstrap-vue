@@ -1,15 +1,43 @@
-1. yarn add webpack
-2. yarn add jquery bootstrap vue
-3. yarn add --dev css-loader style-loader file-loader url-loader
-5. create "webpack.config.js"                              -> https://webpack.js.org/concepts/
-6. create entry point: "src/index.js"
-7. add to entry point: import 'bootstrap';                 -> https://getbootstrap.com/docs/4.0/getting-started/webpack/
-8. add to entry point: import 'bootstrap/dist/css/bootstrap.min.css';
-9. create index.html
-10. add to package.json:
-                        "scripts": {
-                            "build": "webpack --progress --watch"
-                        },
-                                                            -> https://webpack.js.org/api/cli/
+I use **yarn** to install node packages. 
+If you prefer **npm**, keep in mind to apply _npm install ..._ instead of _yarn add,..._
 
-11. write in a Terminal: yarn run build
+### 1. Install webpack
+
+`yarn add webpack`
+
+### 2. Install jQuery, Bootstrap and Vue.js
+`yarn add jquery bootstrap vue`
+
+jQuery library is required for proper Bootstrap work.
+
+### 3. Install webpack loaders
+
+`yarn add --dev css-loader style-loader file-loader url-loader`
+
+Loaders enable transform other files to javascript code.
+css-loader and style-loader - load css and inline style.
+file-loader and url-loader - load files like svg, woff2
+
+### 4. Create "webpack.config.js" file 
+
+Please see how this file looks like in the repository.
+
+### 5. Create entry point: "index.js"
+
+Please see how this file looks like in the repository.
+
+### 6. Create "index.html" file
+
+Please see how this file looks like in the repository.
+
+### 7. Add to "package.json" _script_ key
+
+`"scripts": {
+    "build": "webpack --progress --watch"
+  }`
+
+That tells yarn or npm to run the Webpack in watch mode and show progress percentage during building of project.
+
+### 8. Write in the Terminal 
+
+`yarn run build`
