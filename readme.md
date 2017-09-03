@@ -44,4 +44,6 @@ That tells yarn or npm to run the Webpack in watch mode and show percent progres
 
 `yarn run build`
 
+This builds the project - creates a dist/bundle.js file (we've defined this in webpack.config.js)
+
 ### 9. Open "index.html" in the Web browser
