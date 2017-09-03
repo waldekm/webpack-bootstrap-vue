@@ -43,3 +43,5 @@ That tells yarn or npm to run the Webpack in watch mode and show percent progres
 ### 8. Write in the Terminal 
 
 `yarn run build`
+
+### 9. Open "index.html" in the Web browser
