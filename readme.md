@@ -14,8 +14,8 @@ jQuery library is required for proper Bootstrap work.
 
 `yarn add --dev css-loader style-loader file-loader url-loader`
 
-Loaders enable transform other files to javascript code.
-css-loader and style-loader - load css and inline style.
+Loaders enable transform other files to javascript code.  
+css-loader and style-loader - load css and inline style.  
 file-loader and url-loader - load files like svg, woff2
 
 ### 4. Create "webpack.config.js" file 
@@ -32,9 +32,11 @@ Please see how this file looks like in the repository.
 
 ### 7. Add to "package.json" _script_ key
 
-`"scripts": {
-    "build": "webpack --progress --watch"
-  }`
+```
+"scripts": {
+   "build": "webpack --progress --watch"
+}
+ ```
 
 That tells yarn or npm to run the Webpack in watch mode and show progress percentage during building of project.
 
